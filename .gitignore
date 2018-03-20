@@ -1,5 +1,7 @@
 # idea file
 .idea
+log
+logs
 
 # Compiled class file
 *.class
