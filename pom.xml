@@ -9,10 +9,18 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
+        <zxk.common.version>1.0-SNAPSHOT</zxk.common.version>
         <log4j2.version>2.10.0</log4j2.version>
     </properties>
 
     <dependencies>
+          <!-- 内部模块 -->
+        <dependency>
+            <groupId>com.zxk.common</groupId>
+            <artifactId>common-parent</artifactId>
+            <version>${zxk.common.version}</version>
+        </dependency>
+
           <!-- 日志 -->
           <dependency>
               <groupId>org.apache.logging.log4j</groupId>
