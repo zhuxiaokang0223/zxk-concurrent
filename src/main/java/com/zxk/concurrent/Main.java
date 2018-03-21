@@ -10,7 +10,10 @@ import org.apache.logging.log4j.Logger;
 public class Main {
     static Logger logger = LogManager.getLogger(Main.class);
 
-    public static void main(String[] args) {
-        logger.info("测试日志");
+
+    public static void main(String[] args){
+
+
+
     }
 }
